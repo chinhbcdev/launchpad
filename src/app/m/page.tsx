@@ -3,36 +3,40 @@ import TestComponent from "../components/TestComponent";
 
 export default function Morty() {
   return (
-    <div class="max-w-[1440px] mx-auto font-sans font-bold text-white bg-black">
-      <header class="">
-        <div class="layout-container ">
-          <div class="flex items-center justify-between py-[29px] ">
-            <img class="max-w-[180px]" src="logo.png"></img>
-            <ul class="flex items-center gap-7">
+    <div className="max-w-[1440px] mx-auto font-sans font-bold text-white bg-black">
+      <header className="">
+        <div className="layout-container ">
+          <div className="flex items-center justify-between py-[29px] ">
+            <img className="max-w-[180px]" src="logo.png"></img>
+            <ul className="flex items-center gap-7">
               <li>Home</li>
               <li>Launchpad</li>
               <li>Roadmap</li>
               <li>Contact</li>
             </ul>
-            <button class="uppercase bg-[#798da3] py-[16px] px-[30px] rounded-bl-lg text-sm">
+            <button className="uppercase bg-[#798da3] py-[16px] px-[30px] rounded-bl-lg text-sm">
               Connect
             </button>
           </div>
-          <div class="grid grid-cols-2 mb-40">
+          <div className="grid grid-cols-2 mb-40">
             <div>
-              <h1 class="text-7xl mb-6">
-                Enter the Ethereum portal through Morty's journey
+              <h1 className="text-7xl mb-6">
+                Enter the Ethereum portal through Morty&apos;s journey
               </h1>
-              <p class="sub-title mb-10" data-label-id="0" data-metatip="true">
+              <p
+                className="sub-title mb-10"
+                data-label-id="0"
+                data-metatip="true"
+              >
                 The portal takes us to the unexpected on the ERC20 network.
                 Morty Pad will be where it all begins!
               </p>
-              <p data-label-id="0" data-metatip="true" class="mb-10">
+              <p data-label-id="0" data-metatip="true" className="mb-10">
                 Smart contract: 0xEDD63398eF416e612AD7547C1B3773198834687D
               </p>
               <a
                 href="#"
-                class="bg-[#86ff00] py-[16px] px-[30px] rounded-bl-lg text-sm "
+                className="bg-[#86ff00] py-[16px] px-[30px] rounded-bl-lg text-sm "
                 data-label-id="0"
               >
                 EXPLORE IDOs
@@ -41,16 +45,16 @@ export default function Morty() {
             <img src="Furore.png"></img>
           </div>
           <h2
-            class="title text-5xl text-center leading-[55px] my-4"
+            className="title text-5xl text-center leading-[55px] my-4"
             data-label-id="0"
           >
             Upcoming Project
           </h2>
-          <div class="grid grid-cols-2 mb-20">
-            <img class="" src="img_slider_v1.png "></img>
-            <div class="text-white">
+          <div className="grid grid-cols-2 mb-20">
+            <img className="" src="img_slider_v1.png "></img>
+            <div className="text-white">
               <h4>The first project on MortyPad</h4>
-              <ul class="flex gap-2">
+              <ul className="flex gap-2">
                 <li>
                   <a href="#" target="_blank">
                     <svg
@@ -59,7 +63,7 @@ export default function Morty() {
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="w-6 h-6"
+                      className="w-6 h-6"
                     >
                       <path
                         stroke-linecap="round"
@@ -72,7 +76,7 @@ export default function Morty() {
                 <li>
                   <a>
                     <svg
-                      class="w-6 h-6 text-gray-400 text-blue-400 fill-current"
+                      className="w-6 h-6 text-gray-400 text-blue-400 fill-current"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 496 512"
                     >
@@ -83,7 +87,7 @@ export default function Morty() {
                 <li>
                   <a>
                     <svg
-                      class="w-6 h-6 text-blue-300 fill-current"
+                      className="w-6 h-6 text-blue-300 fill-current"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                     >
@@ -93,10 +97,10 @@ export default function Morty() {
                 </li>
               </ul>
               <ul
-                class="flex gap-2 bg-[#86ff00] text-[#1a222c] rounded-md                  "
+                className="flex gap-2 bg-[#86ff00] text-[#1a222c] rounded-md                  "
                 data-label-id="0"
-                contenteditable="true"
-                spellcheck="false"
+                contentEditable="true"
+                spellCheck="false"
               >
                 <li>
                   <span>
@@ -111,7 +115,7 @@ export default function Morty() {
                 </li>
               </ul>
               <input
-                class="block w-full bg-[#1e2835]"
+                className="block w-full bg-[#1e2835]"
                 id="depositInput"
                 type="number"
                 placeholder="Amount"
@@ -119,9 +123,9 @@ export default function Morty() {
                 max="1"
               ></input>
               <p
-                class="note-1"
-                contenteditable="true"
-                spellcheck="true"
+                className="note-1"
+                contentEditable="true"
+                spellCheck="true"
                 data-label-id="0"
               >
                 <span>Min: 0.1 ETH</span> <span>Max: 0.5 ETH</span>
@@ -129,23 +133,23 @@ export default function Morty() {
               <button
                 id="depositBtn"
                 data-label-id="0"
-                contenteditable="true"
-                spellcheck="true"
+                contentEditable="true"
+                spellCheck="true"
               >
                 Deposit
               </button>
             </div>
           </div>
           <h2
-            class="text-center text-5xl mb-5"
+            className="text-center text-5xl mb-5"
             data-label-id="0"
-            contenteditable="true"
-            spellcheck="false"
+            contentEditable="true"
+            spellCheck="false"
           >
             Easy to join IDOs <br />
             with 3 steps
           </h2>
-          <div class="grid grid-cols-3">
+          <div className="grid grid-cols-3">
             <TestComponent
               icon="project_5"
               title="Connect Wallet"
@@ -169,9 +173,9 @@ export default function Morty() {
               num="03"
             />
           </div>
-          <div class="grid grid-rows-2 justify-items-stretch">
+          <div className="grid grid-rows-2 justify-items-stretch">
             <RoadmapComponet />
-            <RoadmapComponet class="justify-self-end" />
+            <RoadmapComponet />
           </div>
         </div>
       </header>
@@ -179,30 +183,30 @@ export default function Morty() {
   );
 }
 //8px
-// <body class="w-full max-w-[1263px] text-white text-[16px] font-sans font-bold leading-6 bg-[#09121d]">
-//   {/* <div class="w-full max-w[1140px] py-[29px] h-[110px] flex flex-col">
-//     <div class="ml-[77px] ">
-//       <Image class="max-w max-h py-[35px]" width={500} height={500} src="/logo.png" />
+// <body className="w-full max-w-[1263px] text-white text-[16px] font-sans font-bold leading-6 bg-[#09121d]">
+//   {/* <div className="w-full max-w[1140px] py-[29px] h-[110px] flex flex-col">
+//     <div className="ml-[77px] ">
+//       <Image className="max-w max-h py-[35px]" width={500} height={500} src="/logo.png" />
 //     </div>
 //   </div>
 //    */}
 
-//   <div class="flex flex-row mx-[62px] max-h-[110px] ">
-//     <div class="flex flex-row mx-[35px]">
-//       <Image class="my-[12px] object-contain" width={200} height={200} src="/logo.png" />
+//   <div className="flex flex-row mx-[62px] max-h-[110px] ">
+//     <div className="flex flex-row mx-[35px]">
+//       <Image className="my-[12px] object-contain" width={200} height={200} src="/logo.png" />
 //     </div>
-//     <div class="">
-//       <button class="text-[#86ff00] p-4">Home</button>
-//       <button class="p-4">Launchpads</button>
-//       <button class="p-4">Roadmap</button>
-//       <button class="p-4">Contact</button>
+//     <div className="">
+//       <button className="text-[#86ff00] p-4">Home</button>
+//       <button className="p-4">Launchpads</button>
+//       <button className="p-4">Roadmap</button>
+//       <button className="p-4">Contact</button>
 //     </div>
-//     <div class="ml-[257px]">
-//       <button class="uppercase  bg-[#798da3] rounded-2 px-4 py-5 font-medium">Connect</button>
+//     <div className="ml-[257px]">
+//       <button className="uppercase  bg-[#798da3] rounded-2 px-4 py-5 font-medium">Connect</button>
 //     </div>
 //   </div>
 
-//   <h1 class="text-7xl leading-[72px]">
+//   <h1 className="text-7xl leading-[72px]">
 //     Enter the Ethereum portal through Morty's journey
 //   </h1>
 
